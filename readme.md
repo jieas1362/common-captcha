@@ -41,4 +41,8 @@ public class ProCaptchaConfig extends CaptchaConfParams {
 ```
     @Autowired
     private CaptchaProcessor captchaProcessor;
+    
+    
+    captchaProcessor.generateVerifyCode();
+    captchaProcessor.verify();
 ```
